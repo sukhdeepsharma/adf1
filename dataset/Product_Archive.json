@@ -1,0 +1,17 @@
+{
+	"name": "Product_Archive",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "acweb_arch",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ProductArchive"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
